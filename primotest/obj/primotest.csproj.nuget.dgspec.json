@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/martin/Workspace/primoPrj/primotest/primotest.csproj": {}
+  },
+  "projects": {
+    "/home/martin/Workspace/primoPrj/primo/primo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/martin/Workspace/primoPrj/primo/primo.csproj",
+        "projectName": "primo",
+        "projectPath": "/home/martin/Workspace/primoPrj/primo/primo.csproj",
+        "packagesPath": "/home/martin/.nuget/packages/",
+        "outputPath": "/home/martin/Workspace/primoPrj/primo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/martin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/martin/Workspace/primoPrj/primotest/primotest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/martin/Workspace/primoPrj/primotest/primotest.csproj",
+        "projectName": "primotest",
+        "projectPath": "/home/martin/Workspace/primoPrj/primotest/primotest.csproj",
+        "packagesPath": "/home/martin/.nuget/packages/",
+        "outputPath": "/home/martin/Workspace/primoPrj/primotest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/martin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "/home/martin/Workspace/primoPrj/primo/primo.csproj": {
+                "projectPath": "/home/martin/Workspace/primoPrj/primo/primo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
