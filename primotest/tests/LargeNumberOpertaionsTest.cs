@@ -6,6 +6,14 @@ namespace primo
     public class LargeNumberOpertaionsTest
     {
         [Fact]
+        public void testSubtract()
+        {
+            Assert.Equal("900", LargeNumberOperations.subtract("1000", "100"));
+            Assert.Equal("49002", LargeNumberOperations.subtract("49933", "931"));
+            Assert.Equal("199", LargeNumberOperations.subtract("00220", "00021"));
+        }
+
+        [Fact]
         public void testFormatResult()
         {
             Assert.Equal("0", LargeNumberOperations.formatResult("000000"));
